@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.smy-form {
+  width: 100%;
+  max-width: 50%; /* Or whatever maximum width you want */
+}
+.input-label,
+.input-field {
+  display: block;
+  text-align: left;
+  color: #bdbdbd;
+  font-family: "Inter", sans-serif; /* Use the Inter font */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+.input-field {
+  padding: 16px 24px;
+  text-align: left;
+  border-radius: 6px;
+  border: 1px solid #7a7a7a;
+  color: #bdbdbd;
+  margin-bottom: 24px;
+}
+.input-field:focus {
+  color: #7a7a7a;
+  border-color: #a95a84;
+  outline: none;
+}
+.input-field::placeholder {
+  color: #bdbdbd;
+}
+.submit-button {
+  padding: 16px 98px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #672146;
+  border-radius: 6px;
+  font-family: Inter; /* Add this line */
+  font-size: 16px; /* Add this line */
+  font-style: normal; /* Add this line */
+  font-weight: 600; /* Add this line */
+  line-height: 150%; /* Add this line */
+  color: #efefef;
+  outline: none;
+  border: none;
+}
+.submit-button:hover {
+  background-color: #a95b85;
+  outline: none;
+}
